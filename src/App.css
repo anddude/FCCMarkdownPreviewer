@@ -1,0 +1,81 @@
+.boxes-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  width: 80%;
+}
+
+#editor-div, #markdown {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  width: 50%; 
+  height: 80vh;
+  font-size: 12px;
+  line-height: 1.4;
+  background-color: antiquewhite;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0px 1px 8px 1px rgb(149, 199, 243);
+  position: relative;
+}
+
+#editor-div {
+  margin-right: 10px; /* Add margin to the right of the editor */
+}
+
+#markdown {
+  margin-left: 10px; /* Add margin to the left of the preview */
+}
+
+#preview {
+  width: 80%;
+  height: 80%;
+  overflow: auto;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(136, 151, 180);
+  border-radius: 10px;
+  align-items: center;
+}
+
+#editor { /* This is the textarea */
+  width: 80%;
+  height: 80%; 
+  background-color: rgb(136, 151, 180);
+  color: rgb(255, 255, 255);
+  resize: none; 
+  outline: none;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  padding: 20px;
+  overflow: auto;
+}
+
+#editor:hover {
+  border: 2px solid rgb(149, 199, 243);
+  cursor: pointer;
+}
+
+#title1, #title2 {
+  background-color: rgb(149, 199, 243);
+  border: 2px solid grey;
+  color: rgb(130, 1, 77);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  margin-top: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  position: absolute;
+  width: 100%;
+  top: 0;
+  text-align: left;
+  padding: 0 5px 5px 5px;
+}
+
+#mdpreviewer {
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(176, 207, 234);
+}
