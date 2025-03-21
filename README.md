@@ -1,4 +1,4 @@
-#Markdown Previewer#
+Markdown Previewer
 
 Markdown previewer I made during my FreeCodeCamp studies usine react. 
 
